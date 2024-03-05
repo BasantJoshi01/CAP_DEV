@@ -1,0 +1,12 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "sqlite",
+            "group": "sqlitegroup",
+            "database": "${workspaceFolder:CAPM DEVELOMENT}/firstProject/Student.sqlite"
+        }
+    ]
+}
