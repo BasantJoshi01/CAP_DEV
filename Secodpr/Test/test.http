@@ -1,0 +1,29 @@
+###get metadata
+GET  http://localhost:4004/odata/v4/mysrvdemo/$metadata
+
+
+### Get Family Name
+GET   http://localhost:4004/odata/v4/mysrvdemo/Family
+
+### create Family 
+
+POST  http://localhost:4004/odata/v4/mysrvdemo/Family
+Content-Type : application/json
+
+{
+      "ID": "9",
+      "father_name": "Naveen  Joshi",
+      "mother_name": "Sheela ",
+      "phone_number": "2414234124"
+}
+
+### delete request
+DELETE   http://localhost:4004/odata/v4/mysrvdemo/Family
+Content-Type : application/json
+
+{
+      "ID": "8",
+      "father_name": "Naveen  Joshi",
+      "mother_name": "Sheela ",
+      "phone_number": "2414234124"
+}
