@@ -7,3 +7,7 @@ service mysrvdemo {
    
    entity Family as projection on bj.Family;
 }
+
+//* Annotatons Will be written here or Make a new srv file
+
+   
