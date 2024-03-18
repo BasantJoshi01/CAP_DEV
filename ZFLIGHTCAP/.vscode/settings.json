@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Flightss",
+            "database": "${workspaceFolder:ZFLIGHTCAP}/Flights.db"
+        }
+    ]
+}

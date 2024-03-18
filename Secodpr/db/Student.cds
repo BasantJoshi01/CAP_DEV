@@ -6,6 +6,4 @@ entity  Student {
     first_name: String(30);
     last_name:String(20);
     date_sign_up: Date;
-    
-    
 }
